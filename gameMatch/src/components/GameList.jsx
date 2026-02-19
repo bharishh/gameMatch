@@ -1,4 +1,5 @@
 import {useState, useEffect, useMemo} from "react";
+import "../game.css"
 
 export default function GameList() {
 
@@ -37,6 +38,7 @@ export default function GameList() {
 
     return (
         <div>
+            <h1>Free to play</h1>
             <input
                 type="search"
                 placeholder="Rechercher par nom"
